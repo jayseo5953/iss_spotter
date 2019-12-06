@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/sjs5953/iss_spotter#readme",
   "dependencies": {
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
   }
 }

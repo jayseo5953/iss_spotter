@@ -47,3 +47,6 @@ nextISSTimesForMyLocation((error, passTimes) => {
   printTime(passTimes);
   // console.log(passTimes);
 });
+
+
+module.exports = { printTime };
