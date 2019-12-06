@@ -7,10 +7,11 @@ let printTime = (time) => {
     let duration = ele.duration;
     console.log(`Next pass at ${date} for ${duration} seconds!`);
   }
-};
+}
+
 
 
 nextISSTimesForMyLocation()
   .then(time => printTime(time))
-  .catch(error => console.log("You got an Error!: ",error.message));
+  .catch(error => console.log("You got an Error!: ",error.message))
 
